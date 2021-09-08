@@ -1,0 +1,273 @@
+* {
+	padding:0px;
+	margin: 0px; 
+	font-family: "Work Sans";
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.tituloh4{
+	z-index: 2;
+}
+
+.plecatitulo{
+	width: 45%;
+	height: 1em;
+  background: rgb(48,200,214);
+	background: linear-gradient(90deg, #30C8D6 0%, #A4D5C6 100%);
+	position: relative;
+left: 20px;
+top: -1em;
+}
+.light {
+	font-weight: 100 !important;
+}
+
+#maincontent {
+	width: 100%;
+}
+
+#portada {
+	width: 100%;
+	height: 100vh;
+	background: rgb(48,200,214);
+	background: linear-gradient(90deg, #30C8D6 0%, #A4D5C6 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2rem;
+}
+
+#fotosmuseos {
+	width: 100%;
+	height: 600px;
+}
+
+#textosmuseos {
+	/*width: 100%;*/
+	height: 400px;
+	background-color: #f8faff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1rem;
+	text-align: center;
+}
+
+#textosmuseos * { 
+	margin-bottom: 0.3rem;
+}
+
+header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	/*background-color: white;*/
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #f8faff;
+	box-shadow: rgba( 12,12,12, 0.1 ) 0 4px 12px;
+	z-index: 3;
+}
+
+header nav {
+	width: 100%;
+	display: flex;
+	height: 70px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+header nav div {
+	display: flex;
+	/*width: 20%;*/
+	justify-content: space-between;
+}
+
+#mapa1 {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imgbox {
+  padding: 0 0 30px 30px;
+}
+
+.imgbox .img {
+  display: inline-block;
+  box-shadow: -30px 30px 0 rgb(208, 0, 0);
+}
+
+#mapamexico {
+	width: 80%;
+	height: 800px;
+}
+#mapa2 {
+	height: auto;
+	max-width: 100%;
+
+}
+#textomapa2 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #f8faff;
+	justify-content: center;
+	padding-top: 50px;
+	font-size: 1rem;
+	text-align: center;
+	gap: 2rem;
+	padding-left: 10%;
+	padding-right: 10%
+}
+
+#textomapa3 {
+	/*width: 100%;*/
+	background-color: #f8faff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+	font-size: 1rem;
+	text-align: center;
+		padding-left: 10%;
+	padding-right: 10%;
+}
+#mapa3{
+		width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mapacalor {
+width: 80%;
+	height: 800px;
+	
+}
+#textomapa4 {
+	/*width: 100%;*/
+	background-color: #f8faff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+	font-size: 1rem;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#mapa4 {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2rem;
+}
+#manhattan{
+width: 25%;
+}
+#estadodeny{
+	display: flex;
+	justify-content: left;
+}
+#manhattan2{
+	width: 50%;
+	padding-bottom: 2rem;
+}
+#manhattan1{
+	justify-content: right;
+	align-items: right;
+}
+
+#grafica1{
+	width: 100%;
+}
+#mapagif1{
+	padding-top: 2rem;
+	width: calc(100%	-	2rem);
+	display: flex;
+	justify-content: center;
+}
+.pr-5,
+.px-5 {
+  padding-right: 3rem !important;
+}
+
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+
+.pl-5,
+.px-5 {
+  padding-left: 3rem !important;
+}
+
+#mapagif1{
+	max-width: 100%;
+	padding-top: 2rem;
+	display: inline-flex;
+}
+
+.titulo--deg {
+	position: relative;
+	z-index: 2;
+}
+
+.titulo--deg:after {
+	content: '';
+	background: linear-gradient(90deg, #EF77AD 0%, #EFAE7C 100%);
+	color: #F8F3F0;
+	/*padding: 1rem;*/
+	width: 50%;
+	height: 50%;
+	/*border-radius: 0.5rem;*/
+	box-shadow: rgba( 12,12,12, 0.1 ) 0 4px 12px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate( calc( -50% + 3rem ) , calc( -50% + 1rem ) );
+	z-index: -1;
+}
+.titulo--deg:before {
+	content: '';
+	background: linear-gradient(90deg, #EF77AD 0%, #EFAE7C 100%);
+	color: #F8F3F0;
+	/*padding: 1rem;*/
+	width: 50%;
+	height: 50%;
+	/*border-radius: 0.5rem;*/
+	box-shadow: rgba( 12,12,12, 0.1 ) 0 4px 12px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate( calc( -50% + 4rem ) , calc( -50% + 3rem ) );
+	z-index: -1;
+}
+
+
+
+
